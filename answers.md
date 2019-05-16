@@ -19,3 +19,12 @@ d) 16 000 000 000 Bit = 16 000 000 000/ 4 * 10^-9 = 2GB
 1024 * 1024 * 1024 * 4096 for tripple indirect
 
 #4
+lets assume we have 32 bit addresses
+
+512 * 10 Bytes for first 10 pointers
+256 * 512 Bytes for single indirect
+256 * 256 * 512 Bytes for double indirect
+256 * 256 * 256 * 512 Bytes for tripple indirect
+
+enough to capture 5GB
+need 1024 to capure 12gb
